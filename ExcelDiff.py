@@ -38,5 +38,5 @@ for j in book1_sheet1_rowlist:
 
 # 最后，将book1另存成一个文件
 save_time = time.strftime("%Y%m%d_%H%M%S", time.localtime())
-excel_name = save_time  + '.xlsx'  # 由时间命名文件名，避免重复
+excel_name = save_time + '.xlsx'  # 由时间命名文件名，避免重复
 book1.save(excel_name)
